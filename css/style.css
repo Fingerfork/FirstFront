@@ -1,0 +1,182 @@
+* {box-sizing: border-box;}
+html{
+	
+}
+body {
+  margin: 0;
+  background: radial-gradient(#BFD6E2 1px, rgba(255,255,255,0) 2px);
+  background-size: 10px 10px;
+  float:left;
+  font-family: Helvetica Arial ; 
+  font-size: 110%;
+}
+header{
+	border:10px groove green;
+	margin: 1px;
+	background: white;
+  	background-image: url('list.jpg');
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	border-radius: 10px;
+  	
+  	
+  	position: relative;
+  	background-size: cover;
+} 
+header h4{
+	padding-left: 23%;
+	color: red;
+	
+}  
+header button{
+	border:3px groove green; 
+	margin-top: -30px;
+    margin-bottom: -20px;
+    margin-left: 2px;
+    color: green;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}         
+ul.nav{
+	margin-bottom: 30px;
+	margin-top: -80px;
+    margin-left: 0px;
+    padding-left: 30%;
+    list-style: none;
+            }
+
+.nav li { 
+    display: inline;
+            }
+ul.nav a {
+    display: inline-block;
+    width: 8em;
+    padding:10px;
+    margin: 0 5px;
+    background-color: #f4f4f4;
+    border: 3px groove green;
+    border-radius: 10px;
+    text-decoration: none;
+    color: green;;
+    text-align: center;
+            }
+ul.nav a:hover{
+    background-color: #333;
+    color: #f4f4f4;
+            }
+
+img.logo{
+	padding: 0px;
+	width: 150px;
+	height: 150px;
+}
+menu{
+	
+	height: 200px;
+	width: 300px;
+	border: 1px solid #999;
+    border-radius: 10px;
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    opacity: 0.3;
+    padding: 15px; 
+    
+}
+menu:hover{
+	opacity: 1;
+}
+menu a{
+	color: red;
+	display: block;
+    margin: 5px 0;
+}
+article.rif{
+	border: 4px double green;
+	padding-bottom: 100px;
+	
+     
+
+}
+article.rif h5{
+	margin-bottom: 100px;
+	text-align: center;
+}
+#q{
+	margin-left: -700px; 
+}
+article.rif img{
+	float:left; 
+	width: 240px;
+	height: 220px;
+
+}
+p{
+	color: green;
+}
+li{
+	color: green;
+}
+article.ice{
+	border: 4px solid green;
+	padding-bottom: 100px; 
+
+
+}
+
+#led{
+	width: 1280px;
+	height: 700px;
+	margin: 3px 4px 3px 0;
+}
+#led1{
+	width: 390px;
+	height: 300px;
+	float:left;
+}	
+
+article.ice img{
+	width: 280px;
+	height: 200px;
+	float:right;
+	margin: 3px 2px 3px 0;
+}
+article.ice h5{
+	margin-right: 100px;
+	margin-bottom: 10px;
+
+	text-align: center;
+}
+article.cyn{
+	text-align: center;
+}
+article.infec{
+	text-align: center;
+	border: 10px double green;
+	border-radius: 20px;
+}
+.test{
+	text-align: center;
+	border: 2px solid green;
+	
+	padding-bottom: 500px;
+	background-color: white; 
+	background-image: url('earth.jpg');
+	background-position: center center;
+  	border-radius: 100px;
+  	position: relative;
+  	background-size: cover;
+}
+.test b{
+	color: white;
+	
+}
+footer{
+	text-align: center;
+	border: 4px groove green;
+	
+	padding-bottom: 10px;
+	background-color: black;
+	color: gray;
+
+}
